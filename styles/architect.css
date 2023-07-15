@@ -4,7 +4,7 @@
 /* shared styles */
 * {
     font-family: 'Open Sans', sans-serif;
-    /* margin: 0px; */
+ 
 }
 
 .btn-primary {
@@ -18,7 +18,7 @@
     border: none;
 }
 
-/* header styles */
+/* header styles start*/
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -73,19 +73,25 @@ nav li a {
     margin-top: 20px;
     width: 100%;
 }
+/* header styles end*/
+
 /* responsive media queries */
 /* mobile devicess */
 @media screen and (max-width: 576px) {
+    /* header styles start*/
     header{
         padding: 20px;
     }
     nav{
         flex-direction: column;
     }
+    /* header styles end*/
 }
 
 /* tablet or medium devicess */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+
+    /* header styles start*/
     header{
         padding: 20px;
     }
@@ -93,4 +99,6 @@ nav li a {
     nav{
         flex-direction: column;
     }
+
+    /* header styles end*/
 }
